@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Lato:wght@100;300&display=swap');
+
+
+
+
+*{
+    font-family: 'Lato', sans-serif;
+    color:  #444444;
+    margin: 0;
+    padding: 0;
+}
+
+/* p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+} */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f0a500;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+header > *{
+    margin: 0px 5px;
+}
+
+header > div {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul > li{
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 5px 5px;
+    font-size: 18px !important;
+    margin: 1px;
+}
+
+.active, ul > li:hover{
+    background-color: #e45826;
+    color: white;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+    height: 310px;
+    display: flex;
+    overflow: none;
+}
+
+.banner > div{
+    padding: 30px;
+    background-color: #4a3933;
+    width: 75%;
+}
+
+.banner > div > *{
+    margin: 10px;
+}
+
+.banner > div > button{
+    padding: 15px;
+    background-color: #e45826;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.banner > div > h1, h2{
+    color: #f0a500;
+}
+
+.banner > .introimg{
+   padding: 0; 
+   width: 25%;
+   height: 100%;
+   background: transparent no-repeat center;
+   background-size: cover;
+}
+
+.offer{
+    width: 100%;
+}
+
+.items{
+    display: flex;
+    justify-content: first baseline;
+    margin-bottom: 50px;
+}
+
+.items > img{
+    margin: 0 88px;
+}
+
+.items > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    width: 280px;
+    height: 420px;
+    background-color: #f8f5f1;
+    margin: 0 12px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px #888888;
+}
+
+.items > div > div{
+    width: 265px;
+    height: 380px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    text-align: center;
+    padding: 5px;
+}
+.items > div > div > *{
+    margin: 9px 0;
+}
+
+.items > div > div > p{
+    line-height: 20px;
+}
+
+.items > div > div > button{
+    font-family: 'Fira Sans', sans-serif;
+    width: 250px;
+    height: 50px;
+    background-color: #e45826;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.active-offer{
+    background-color: #e45826 !important;
+    padding: 0 5px;
+}
+
+.active-offer > h4{
+    margin: 5px;
+}
+
+.active-offer > div{
+    background-color: #f8f5f1 !important;
+}
+
+.benefits{
+    background-color:  #e6d5b8;
+    padding: 12px 35px;
+}
+
+.benefits > *{
+    margin: 15px 0;
+}
+
+.benefitcontent{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.benefitcontent > div{
+    width: 395px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.benefitcontent > div > *{
+    margin: 7px 10px;
+}
+
+.testimonials{
+    padding: 30px;
+}
+.testimonials > *{
+    margin: 15px 0;
+}
+
+.testcontent{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    text-align: center;
+}
+.testcontent > div{
+    padding: 25px;
+    background-color: #f8f5f1;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px #888888;
+    margin: 0 10px;
+}
+.testcontent > div > img{
+    border-radius: 50%;
+}
+
+.testcontent > div > *{
+    margin: 9px 0;
+}
+
+.calltoaction{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4a3933;
+    padding: 25px;
+}
+.calltoaction > *{
+    color: white;
+}
+
+.calltoaction > button{
+    padding: 15px 100px;
+    background-color: #e45826;
+    font-weight: bolder;
+    color: white;
+    border: none;
+}
+
+.socials{
+    padding: 30px;
+}
+
+.socialcontainer{
+    display: flex;
+    justify-content: space-evenly   ;
+}
+
+.socialcontainer > div{
+    display: flex;
+    flex-direction: column;
+}
+.socialcontainer > div > h3{
+    margin-bottom: 20px;
+}
+.socialcontainer > div > a{
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
